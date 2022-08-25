@@ -220,8 +220,15 @@ label {
   font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 2px;
   padding-bottom: 0.2rem;
+}
+input{
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 0.2rem;
+}
+input:focus{
+  outline-color: rgb(31, 31, 254);
 }
 
 .form_btn_wrapper {
