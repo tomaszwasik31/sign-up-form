@@ -231,6 +231,14 @@ input:focus{
   outline-color: rgb(31, 31, 254);
 }
 
+#error_msg{
+  color: red;
+  font-size: .7rem;
+  margin-top: 0.4rem;
+  visibility: hidden;
+
+}
+
 .form_btn_wrapper {
   margin: 2rem;
 }

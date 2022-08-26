@@ -46,18 +46,19 @@
               </div>
               <div class="form_field">
                 <label for="tel">Phone number</label>
-                <input type="tel" id="tel" name="user_tel" />
+                <input type="tel" id="tel" name="user_tel" minlength="9"/>
               </div>
               <div class="form_field">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="user_password" />
+                <p id="error_msg">Password do not match</p>
               </div>
               <div class="form_field">
                 <label for="confirm_password">Confirm Password:</label>
                 <input
                   type="password"
                   id="confirm_password"
-                  name="confirm_password"
+                  name="user_confirm_password"
                 />
               </div>
             </fieldset>
