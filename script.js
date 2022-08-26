@@ -6,8 +6,8 @@ let error_msg = document.getElementById("error_msg");
 function validatePassword() {
   if (password.value != confirm_password.value) {
     confirm_password.setCustomValidity("Passwords Don't Match");
-    confirm_password.style="outline-color:red"
-    password.style="border-color:red"
+    confirm_password.style="outline-color:red;"
+    password.style="border-color:red;"
     error_msg.style="visibility: visible;"
   } else {
     confirm_password.setCustomValidity("");
@@ -15,4 +15,4 @@ function validatePassword() {
 }
 
 
-confirm_password.onkeyup = validatePassword;
+confirm_password.onblur = validatePassword;
